@@ -375,6 +375,72 @@
             }
         }
 
+        .team-card {
+            display: flex;
+            background: linear-gradient(180deg, #1a1c22, #15161c);
+            border: 1px solid rgba(255, 106, 0, 0.15);
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .team-info {
+            flex: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .team-photo {
+            width: 40%;
+            min-height: 250px;
+        }
+
+        .team-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .team-card h3 {
+            color: #ff8c37;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .team-stats div {
+            margin-bottom: 12px;
+        }
+
+        .label {
+            display: inline-block;
+            width: 80px;
+            color: #a7b0bd;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .team-card {
+                flex-direction: column;
+            }
+
+            .team-photo {
+                width: 100%;
+                height: 200px;
+                order: -1;
+            }
+
+            .team-info {
+                padding: 20px;
+            }
+
+            .team-card h3 {
+                font-size: 1.5rem;
+            }
+        }
+
         .gallery {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
@@ -562,6 +628,9 @@
                 </a>
                 <a href="#mentors">
                     Mentors
+                </a>
+                <a href="#ECPC2025">
+                    ECPC2025
                 </a>
                 <a href="#gallery">
                     Gallery
@@ -910,7 +979,7 @@
                         Mohamed Bashir
                     </h3>
                     <p>
-                        EOI2023
+                        EOI2023 junior
                         <br>
                         ECPC2024
                         <br>
@@ -922,26 +991,25 @@
                         Zeiad Ibrahim
                     </h3>
                     <p>
-                        EOI2023 Silver Medal
+                        EOI2023 junior Silver Medal
                         <br>
-                        ECPC2024
+                        ECPC Finalist 2024
                         <br>
                         ECPC2025 Finalist
+                        <br>
+                        APIO2025
                     </p>
                 </article>
                 <article class="mentor-card">
                     <h3>
                         Habiba Abdelhady
                     </h3>
-                    <p>EOI2022
-                        <br>
+                    <p>
                         ECPC2024
                         <br>
                         ECPC2025 Finalist
                         <br>
                         ICPC AlgoQueen2024 Silver Medalist
-                        <br>
-                        IIOT2024
                     </p>
                 </article>
                 <article class="mentor-card">
@@ -961,9 +1029,9 @@
                         Hana Mostafa
                     </h3>
                     <p>
-                        EOI2023 Silver Medal
+                        EOI2023 junior Silver Medal
                         <br>
-                        ECPC2024
+                        ECPC2024 finalist
                         <br>
                         ECPC2025 Finalist
                         <br>
@@ -975,7 +1043,8 @@
                     <h3>
                         Ahmed Emad
                     </h3>
-                    <p>ECPC2024
+                    <p>
+                        ECPC2024
                         <br>
                         ECPC2025 Finalist
                     </p>
@@ -985,7 +1054,7 @@
                         Mohamed Bashir
                     </h3>
                     <p>
-                        EOI2023
+                        EOI2023 junior
                         <br>
                         ECPC2024
                         <br>
@@ -997,26 +1066,25 @@
                         Zeiad Ibrahim
                     </h3>
                     <p>
-                        EOI2023 Silver Medal
+                        EOI2023 junior Silver Medal
                         <br>
-                        ECPC2024
+                        ECPC Finalist 2024
                         <br>
                         ECPC2025 Finalist
+                        <br>
+                        APIO2025
                     </p>
                 </article>
                 <article class="mentor-card">
                     <h3>
                         Habiba Abdelhady
                     </h3>
-                    <p>EOI2022
-                        <br>
-                        ECPC2024
+                    <p>
+                        ECPC 2024
                         <br>
                         ECPC2025 Finalist
                         <br>
                         ICPC AlgoQueen2024 Silver Medalist
-                        <br>
-                        IIOT2024
                     </p>
                 </article>
                 <article class="mentor-card">
@@ -1036,9 +1104,9 @@
                         Hana Mostafa
                     </h3>
                     <p>
-                        EOI2023 Silver Medal
+                        EOI2023 junior Silver Medal
                         <br>
-                        ECPC2024
+                        ECPC2024 Finalist
                         <br>
                         ECPC2025 Finalist
                         <br>
@@ -1047,6 +1115,196 @@
                 </article>
             </div>
         </div>
+    </section>
+
+    <section id="ECPC2025">
+        <div class="section-title">
+            <span class="dot"></span>
+            <h2>ECPC 2025 Teams</h2>
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>
+                    EOI - al standing wl333 at7rk ya Coach Shehata fry2k fy 5tr
+                </h3>
+                <div class="team-stats">
+                    <div class="rank">
+                        <h3>
+                            Rank: 7
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            Role: Mentors
+                        </h3>
+                        <h3>
+                            Solved: 5
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="team-photo">
+                <img src="8.jpg" alt="Gharbiya STEM Team">
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>
+                    we b_s a name
+                </h3>
+                <div class="team-stats">
+                    <div class="rank">
+                        <h3>
+                            Rank: 60
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            Role: Mentors
+                        </h3>
+                        <h3>
+                            Solved: 3
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="team-photo">
+                <img src="9.jpg" alt="Gharbiya STEM Team">
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>
+                    CP rats
+                </h3>
+                <div class="team-stats">
+                    <div class="rank">
+                        <h3>
+                            Rank: 69
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            Role: Members
+                        </h3>
+                        <h3>
+                            Solved: 2
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="team-photo">
+                <img src="10.jpg" alt="Gharbiya STEM Team">
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>
+                    Kode Gurlz	
+                </h3>
+                <div class="team-stats">
+                    <div class="rank">
+                        <h3>
+                            Rank: 92
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            Role: Members
+                        </h3>
+                        <h3>
+                            Solved: 2
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="team-photo">
+                <img src="11.jpg" alt="Gharbiya STEM Team">
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>
+                    Try1
+                </h3>
+                <div class="team-stats">
+                    <div class="rank">
+                        <h3>
+                            Rank: 100
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            Role: Members
+                        </h3>
+                        <h3>
+                            Solved: 2
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="team-photo">
+                <img src="12.jpg" alt="Gharbiya STEM Team">
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>
+                    Mesh moshkeltna	
+                </h3>
+                <div class="team-stats">
+                    <div class="rank">
+                        <h3>
+                            Rank: 108
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            Role: Members
+                        </h3>
+                        <h3>
+                            Solved: 2
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="team-photo">
+                <img src="13.jpg" alt="Gharbiya STEM Team">
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-info">
+                <h3>
+                    B3oon allah		
+                </h3>
+                <div class="team-stats">
+                    <div class="rank">
+                        <h3>
+                            Rank: 110
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            Role: Members
+                        </h3>
+                        <h3>
+                            Solved: 2
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="team-photo">
+                <img src="14.jpg" alt="Gharbiya STEM Team">
+            </div>
+        </div>
+
     </section>
 
     <section id="gallery">
